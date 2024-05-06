@@ -1,0 +1,12 @@
+.button {
+    background: linear-gradient(125deg, rgb(0, 79, 255), rgb(0, 255, 255));
+    color: transparent;
+    background-clip: text;
+    display: inline;
+}
+
+.bgLogo {
+    position: absolute;
+    top: -300px;
+    left: 400px
+}

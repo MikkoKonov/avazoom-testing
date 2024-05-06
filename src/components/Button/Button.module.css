@@ -1,0 +1,12 @@
+.button {
+    padding: 0.65rem 0.75rem;
+    background: linear-gradient(135.00deg, rgb(153, 72, 191) 0%, rgb(75, 38, 153) 100%);
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 3s ease; /* уменьшим время анимации для примера */
+}
+
+.button:hover {
+    background: linear-gradient(135.00deg, rgb(165, 83, 203) 0%, rgb(86, 48, 168) 100%);
+}

@@ -6,7 +6,7 @@ import ButtonOutline from '../ButtonOutline/ButtonOutline';
 
 const Header = () => {
     return (
-        <div style={{display:'flex', maxWidth: '64vw', justifyContent: 'space-between', margin: '1.5rem auto', alignItems: 'center'}}>
+        <div style={{display:'flex', maxWidth: '75vw', justifyContent: 'space-between', margin: '1.5rem auto', alignItems: 'center'}}>
             <Logo/>
             <div style={{display: 'flex', alignItems: 'center'}}>
                 <Links name='Главная' link='/'/>
