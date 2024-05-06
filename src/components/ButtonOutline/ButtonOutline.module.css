@@ -1,0 +1,39 @@
+.button {
+    padding: 0.65rem 0.75rem;
+    text-align: center;
+    cursor: pointer;
+    background: linear-gradient(125deg, rgb(0, 79, 255) 30%, rgb(0, 255, 255) 90%);
+    color: transparent;
+    background-clip: text;
+    font-weight: 600;
+    margin: auto;
+    transition: color 0.5s ease; /* добавляем плавную анимацию для изменения цвета текста */
+}
+
+.bg {
+    background: rgb(17, 17, 17);
+    border-radius: 1.5px;
+    margin: auto;
+    transition: background 0.5s ease; /* добавляем плавную анимацию для изменения фона */
+}
+
+.border {
+    background: linear-gradient(125deg, rgb(0, 79, 255) 30%, rgb(0, 255, 255) 90%);
+    max-width: 15vw;
+    padding: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    transition: background 0.5s ease; /* добавляем плавную анимацию для изменения фона */
+}
+
+.border:hover {
+    color: rgb(17, 17, 17);
+}
+
+.button:hover {
+    color: rgb(255, 255, 255);
+}
+
+.bg:hover {
+    background: linear-gradient(125deg, rgb(0, 79, 255) 30%, rgb(0, 255, 255) 90%);
+}

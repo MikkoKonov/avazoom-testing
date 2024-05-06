@@ -1,0 +1,8 @@
+.logo {
+    background: linear-gradient(125deg, rgb(0, 79, 255), rgb(0, 255, 255));
+    display: inline;
+    background-clip: text;
+    color: transparent;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
