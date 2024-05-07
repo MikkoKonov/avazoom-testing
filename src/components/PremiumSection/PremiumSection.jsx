@@ -27,7 +27,7 @@ const PremiumSection = () => {
                         <input className={classes.input} placeholder='Введите игровой ID' type='text' value={value} onChange={handleChange}/>
                         <Button name='Купить' onClick={handleSubmit} style={null}/>
                     </div>
-                    {showId && <div>Пошёл нахуй, твой id: {value}</div>}
+                    {showId && <div>Пошёл нахуй {value}</div>}
                 </div>
             </div>
         </div>
