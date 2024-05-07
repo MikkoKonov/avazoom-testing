@@ -1,0 +1,13 @@
+.input {
+    padding: 0.65rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    margin-right: 1.5rem;
+}
+
+.input::placeholder {
+    color: rgb(104, 104, 104);
+}

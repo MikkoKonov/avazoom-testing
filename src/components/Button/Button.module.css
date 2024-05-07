@@ -4,7 +4,8 @@
     display: inline-block;
     border-radius: 5px;
     cursor: pointer;
-    transition: background 3s ease; /* уменьшим время анимации для примера */
+    transition: background 3s ease;
+    white-space: nowrap;
 }
 
 .button:hover {

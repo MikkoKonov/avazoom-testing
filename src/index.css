@@ -9,6 +9,10 @@
   background: rgb(17, 17, 17);
 }
 
+body {
+  margin: 0;
+}
+
 a {
   color: rgb(255, 255, 255);
   font-family: Rubik;
@@ -31,6 +35,10 @@ p {
   margin-block-end: 1.5rem;
 }
 
+h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+} 
 
 
 

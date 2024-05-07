@@ -7,23 +7,23 @@
     background-clip: text;
     font-weight: 600;
     margin: auto;
-    transition: color 0.5s ease; /* добавляем плавную анимацию для изменения цвета текста */
+    transition: color 0.5s ease;
+    white-space: nowrap;
 }
 
 .bg {
     background: rgb(17, 17, 17);
     border-radius: 1.5px;
     margin: auto;
-    transition: background 0.5s ease; /* добавляем плавную анимацию для изменения фона */
+    transition: background 0.5s ease;
 }
 
 .border {
     background: linear-gradient(125deg, rgb(0, 79, 255) 30%, rgb(0, 255, 255) 90%);
-    max-width: 15vw;
     padding: 3px;
     border-radius: 3px;
     display: inline-block;
-    transition: background 0.5s ease; /* добавляем плавную анимацию для изменения фона */
+    transition: background 0.5s ease;
 }
 
 .border:hover {

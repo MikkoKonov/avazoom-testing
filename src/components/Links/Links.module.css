@@ -1,6 +1,7 @@
 .link {
     margin-right: 1.5rem;
     transition: color 0.4s ease;
+    white-space: nowrap;
 }
 
 .link:hover {
