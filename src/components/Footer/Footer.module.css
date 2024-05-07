@@ -2,3 +2,39 @@
     color: rgb(104, 104, 104);
     white-space: nowrap;
 }
+
+.footerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 75vw;
+    margin: 1.5rem auto;
+}
+
+.linksContainer {
+    display: flex;
+    margin-left: 1.5rem;
+}
+
+.linkGroup {
+    display: flex;
+}
+
+.linkMargin {
+    margin-bottom: 0;
+}
+
+@media (max-width: 1340px) {
+    .linkGroup {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .linkMargin {
+        margin-bottom: 0.75rem;
+    }
+    .footerContainer {
+        align-items: start;
+    }
+  }
+  
