@@ -7,11 +7,11 @@ import ButtonOutline from '../ButtonOutline/ButtonOutline';
 
 const Header = () => {
 
-    const { isMobile } = useDeviceDetect();
+    const { isMiniTablet } = useDeviceDetect();
 
     return (
         <div className={classes.header}>
-            { isMobile ? (
+            { isMiniTablet ? (
                 <>
                     <Logo/>
                     <a href='https://t.me/Romas1337'>

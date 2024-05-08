@@ -7,8 +7,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 75vw;
     margin: 1.5rem auto;
+    max-width: 75vw;
+}
+
+.bgcolor {
+    background-color: none;
 }
 
 .linksContainer {
@@ -18,6 +22,12 @@
 
 .linkGroup {
     display: flex;
+}
+
+.linkGroupWithLogo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .linkMargin {
@@ -36,5 +46,29 @@
     .footerContainer {
         align-items: start;
     }
-  }
-  
+}
+
+@media (max-width: 862px) {
+    .footerContainer {
+        max-width: 90vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .bgcolor {
+        background: rgb(18, 18, 18);
+    }
+    .footerContainer {
+        background: rgb(18, 18, 18);
+        padding: 2rem 0;
+        margin: 0 auto;
+        display: block;
+    }
+    .linksContainer {
+        margin-left: 0;
+        margin-bottom: 2rem;
+    }
+    .linkMargin {
+        margin-bottom: 0.93rem;
+    }
+}

@@ -11,3 +11,43 @@
 .input::placeholder {
     color: rgb(104, 104, 104);
 }
+
+.bgcolor {
+    background-color: #0B0B0B;
+}
+
+.container {
+    max-width: 75vw; 
+    padding: 3rem 0;
+    margin: 0 auto;
+}
+  
+h2 {
+    margin: 0 0 1.5rem;
+}
+  
+.inputContainer {
+    display: flex;
+    align-items: center;
+}
+  
+
+@media (max-width: 862px) {
+    .container{
+        max-width: 90vw;
+    }
+    .input {
+        padding: 0.81rem 0.94rem;
+        margin-right: 0.93rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .bgcolor {
+        background-color: none;
+    }
+    h2 {
+        margin-bottom: 2rem;
+    }
+}
+  

@@ -19,16 +19,14 @@ const PremiumSection = () => {
     };
 
     return (
-        <div style={{ backgroundColor: '#0B0B0B'}}>
-            <div style={{padding: '3rem 0', margin: '0 auto', maxWidth: '75vw'}}>
-                <h2 style={{margin: '0 0 1.5rem'}}>Купить премиум</h2>
-                <div id='premium'>
-                    <div>
-                        <input className={classes.input} placeholder='Введите игровой ID' type='text' value={value} onChange={handleChange}/>
-                        <Button name='Купить' onClick={handleSubmit} style={null}/>
-                    </div>
-                    {showId && <div>Пошёл нахуй {value}</div>}
+        <div className={classes.bgcolor}>
+            <div className={classes.container}>
+                <h2>Покупка премиума</h2>
+                <div className={classes.inputContainer}>
+                    <input className={classes.input} placeholder='Введите игровой ID' type='text' value={value} onChange={handleChange}/>
+                    <Button name='Купить' onClick={handleSubmit} style={null}/>
                 </div>
+                {showId && <div>Пошёл нахуй {value}</div>}
             </div>
         </div>
     );
