@@ -39,6 +39,7 @@ h2 {
     .input {
         padding: 0.81rem 0.94rem;
         margin-right: 0.93rem;
+        max-width: 50vw;
     }
 }
 
