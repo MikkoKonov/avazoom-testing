@@ -40,6 +40,28 @@ h2 {
   font-weight: 600;
 } 
 
+@media (max-width: 862px) {
+  :root {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-block-end: 1rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+    margin-block-end: 2rem;
+  }
+
+
+}
+
 
 
 

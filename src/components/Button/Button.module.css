@@ -11,3 +11,9 @@
 .button:hover {
     background: linear-gradient(135.00deg, rgb(165, 83, 203) 0%, rgb(86, 48, 168) 100%);
 }
+
+@media (max-width: 862px) {
+    .button {
+        padding: 0.81rem 0.94rem;
+    }
+}

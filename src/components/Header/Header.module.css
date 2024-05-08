@@ -1,1 +1,13 @@
+.header {
+    display: flex;
+    max-width: 75vw;
+    justify-content: space-between;
+    margin: 1.5rem auto;
+    align-items: center;
+}
 
+@media (max-width: 862px) {
+    .header {
+        max-width: 90vw;
+    }
+}
