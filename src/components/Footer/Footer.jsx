@@ -8,7 +8,6 @@ const Footer = () => {
     const { isMiniTablet, isMobile } = useDeviceDetect();
     return (
         <div className={classes.bgcolor}>
-            { isMiniTablet || isMobile ? undefined : <Logo/>}
             {isMobile ? (
                 <div className={classes.footerContainer}>
                     <div className={classes.linksContainer}>
@@ -50,6 +49,7 @@ const Footer = () => {
                 </div>
             ) : (
                 <div className={classes.footerContainer}>
+                    <Logo/>
                     <div className={classes.linksContainer}>
                         <div className={classes.linkGroup}>
                             <div className={classes.linkMargin}>
